@@ -9,6 +9,8 @@
 Ask user if they prefer a park, museum or movie using input()
 """
 
+print("Family Outing")
+
 outing = input("Would you like to go to the Park, Museum or Movie? ")
 
 if outing.title() == "Park":
