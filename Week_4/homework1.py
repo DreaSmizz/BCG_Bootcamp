@@ -10,6 +10,7 @@ Ask user if they have antivirus software installed
 Based on input give answer
 """
 
+print("Cybersecurity Checks")
 antivirus_software = input("Do you have antivirus software installed? Please enter a Y or N: ")
 
 if antivirus_software.upper() == "Y":
