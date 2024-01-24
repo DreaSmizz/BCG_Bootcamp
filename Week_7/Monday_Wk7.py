@@ -81,3 +81,16 @@ print(fruits)
 #Exercise 3
 numbers4 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(numbers4[2:5])
+
+
+#clear() - clears all the items from the list
+list1 = ["1", "1", "1"]
+print(list1)
+list1.clear()
+print(list1)
+
+#count() - how many times an element appears in the list
+print(list1.count("1"))
+
+#index() - gives the index number of the element
+list1Index = list1.index("1")
